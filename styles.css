@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  transition: 500ms;
+  opacity: .75;
+}
+
+a:hover {
+  opacity: 1;
+}
+
+.brand {
+  height: 33px;
+  width: 36px;
+  float: left;
+  background-image: url(/logo.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 8px 0 0 15px;
+  opacity: .75;
+  transition: 500ms;
+}
+
+.brand:hover {
+  opacity: 1;
+}
+
+.main-nav {
+  color: white;
+  background: blue;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  padding: 15px 0;
+  text-align: right;
+}
+
+.nav-links {
+  margin: 0 15px 0 0;
+  padding: 0;
+}
+
+.nav-links li {
+  display: inline;
+  margin-left: 20px;
+}
+
+section {
+  background: aqua;
+  padding: 20px 15px;
+  height: 100vh;
+}
+
+footer {
+  color: white;
+  background: navy;
+  padding: 20px 15px;
+}

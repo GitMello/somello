@@ -1,5 +1,7 @@
 body {
   margin: 0;
+  font-family: sans-serif;
+  height: 100vh;
 }
 
 h1, h2, h3, h4, h5, h6, p {
@@ -10,7 +12,7 @@ a {
   color: white;
   text-decoration: none;
   transition: 500ms;
-  opacity: .75;
+  opacity: .85;
 }
 
 a:hover {
@@ -25,7 +27,7 @@ a:hover {
   background-repeat: no-repeat;
   background-size: cover;
   margin: 8px 0 0 15px;
-  opacity: .75;
+  opacity: .85;
   transition: 500ms;
 }
 
@@ -35,7 +37,7 @@ a:hover {
 
 .main-nav {
   color: white;
-  background: blue;
+  background: navy;
   font-family: sans-serif;
   text-transform: uppercase;
   padding: 15px 0;
@@ -50,12 +52,16 @@ a:hover {
 .nav-links li {
   display: inline;
   margin-left: 20px;
+  transition: 500ms;
+}
+
+.nav-links li:hover {
+  background: silver;
 }
 
 section {
-  background: aqua;
+  background: silver;
   padding: 20px 15px;
-  height: 100vh;
 }
 
 footer {
